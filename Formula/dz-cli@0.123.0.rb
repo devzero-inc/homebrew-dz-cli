@@ -1,4 +1,4 @@
-class DzCli < Formula
+class DzCliAT01230 < Formula
     desc "CLI to create and use ephemeral dev environments on devzero!"
     homepage "https://www.devzero.io/"
     version "0.123.0"
