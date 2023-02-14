@@ -8,10 +8,10 @@ With dz cli, you'll be able to spin up your environment and start coding all fro
 brew tap devzero-inc/dz-cli
 ```
 
-# install
+# install and use
 ```lang-bash
-# latest version
 brew install devzero-inc/dz-cli/dz-cli
+dz help
 ```
 
 # upgrade
