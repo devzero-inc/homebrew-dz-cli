@@ -1,20 +1,20 @@
 class DzCli < Formula
   desc "Command-line tool for DevZero"
   homepage "https://www.devzero.io/"
-  version "38c041613ab928a52ba4cf46f0d9815092d3db3b"
+  version "aa26f74f0bc00362b1001e24a1c57cbd49c6e2fd"
 
   on_macos do
     on_arm do
-      url "https://dz-cli.s3.us-west-2.amazonaws.com/38c041613ab928a52ba4cf46f0d9815092d3db3b/darwin-arm64/dz.tar.gz"
-      sha256 "61301e6e329e61075690f554e5d6e02b9778873f9223656acd509cf96e79c057"
+      url "https://dz-cli.s3.us-west-2.amazonaws.com/aa26f74f0bc00362b1001e24a1c57cbd49c6e2fd/darwin-arm64/dz.tar.gz"
+      sha256 "f15d0e181c4df1de82b46736e7a6c61fad5389de5227021b464d570492dad699"
       def install
         bin.install "dz"
       end
     end
 
     on_intel do
-      url "https://dz-cli.s3.us-west-2.amazonaws.com/38c041613ab928a52ba4cf46f0d9815092d3db3b/darwin-amd64/dz.tar.gz"
-      sha256 "755d952f8a29fcf66465e06f55232f8b44da092d3da560cb0122de7ca69dc77d"
+      url "https://dz-cli.s3.us-west-2.amazonaws.com/aa26f74f0bc00362b1001e24a1c57cbd49c6e2fd/darwin-amd64/dz.tar.gz"
+      sha256 "17c0b23f8348ca5b19f14ef6731b5866f46f6f127b6d992ae7187e1a0da8982d"
       def install
         bin.install "dz"
       end
@@ -23,16 +23,16 @@ class DzCli < Formula
 
   on_linux do
     on_arm do
-      url "https://dz-cli.s3.us-west-2.amazonaws.com/38c041613ab928a52ba4cf46f0d9815092d3db3b/linux-arm64/dz.tar.gz"
-      sha256 "56f708d7e0a9370d7a85e6cfc8d1aebb7daee543038d62f594b3755226dfc1de"
+      url "https://dz-cli.s3.us-west-2.amazonaws.com/aa26f74f0bc00362b1001e24a1c57cbd49c6e2fd/linux-arm64/dz.tar.gz"
+      sha256 "a3eab011d56b1adb1ba680c4441059988adc7a9b707dd0bfc3ffac50fb8104d8"
       def install
         bin.install "dz"
       end
     end
 
     on_intel do
-      url "https://dz-cli.s3.us-west-2.amazonaws.com/38c041613ab928a52ba4cf46f0d9815092d3db3b/linux-amd64/dz.tar.gz"
-      sha256 "137530528e2f11fd901d7797e1faab79fa38fb7b0aa3593d31fcb460e36f86f1"
+      url "https://dz-cli.s3.us-west-2.amazonaws.com/aa26f74f0bc00362b1001e24a1c57cbd49c6e2fd/linux-amd64/dz.tar.gz"
+      sha256 "087ba7e0a6fbbfa603e0ed3ad9c07a46e746c1fd359293d220f37e54fcbc564c"
       def install
         bin.install "dz"
       end
