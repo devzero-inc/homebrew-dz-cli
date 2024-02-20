@@ -1,7 +1,7 @@
 class DzCli < Formula
   desc "Command-line tool for DevZero"
   homepage "https://www.devzero.io/"
-  version ""
+  version "caf3c735c8f7c544805d713b73283cc8de80bf9b"
   version_scheme 12
 
   on_macos do
