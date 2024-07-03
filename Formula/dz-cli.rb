@@ -1,21 +1,21 @@
 class DzCli < Formula
   desc "Command-line tool for DevZero"
   homepage "https://www.devzero.io/"
-  version "0c8484a"
-  version_scheme 35
+  version "a9f930d"
+  version_scheme 36
 
   on_macos do
     on_arm do
-      url "https://dz-cli.s3.us-west-2.amazonaws.com/0c8484a/darwin-arm64/dz.tar.gz"
-      sha256 "8ed97865f7d138ef76becf55c0ef9b0dca18c6cb84dda820064eb7f89204b7d1"
+      url "https://dz-cli.s3.us-west-2.amazonaws.com/a9f930d/darwin-arm64/dz.tar.gz"
+      sha256 "1edd893d62986c7398e29ec66b1f0b54a1c6ee71dcbd4970c652ebbf9b9ba6e5"
       def install
         bin.install "dz"
       end
     end
 
     on_intel do
-      url "https://dz-cli.s3.us-west-2.amazonaws.com/0c8484a/darwin-amd64/dz.tar.gz"
-      sha256 "e85b0123e27145e0ad7e26a3e3c0803a787974e2659b415e3de389ec0bcaef2b"
+      url "https://dz-cli.s3.us-west-2.amazonaws.com/a9f930d/darwin-amd64/dz.tar.gz"
+      sha256 "1676d0e83745bdcaa7f08bd337e8622efafbf9e678e77bf1d385ec5ee5863802"
       def install
         bin.install "dz"
       end
@@ -24,16 +24,16 @@ class DzCli < Formula
 
   on_linux do
     on_arm do
-      url "https://dz-cli.s3.us-west-2.amazonaws.com/0c8484a/linux-arm64/dz.tar.gz"
-      sha256 "40a49a1d4d66ed8a4558d409566a937f87b1f7d1e165dd254e0a4fae660e5b7d"
+      url "https://dz-cli.s3.us-west-2.amazonaws.com/a9f930d/linux-arm64/dz.tar.gz"
+      sha256 "c272a0467b3c5f63df2c6f432699e37f3ae6115ff2b42a79032ba9d21a5c4637"
       def install
         bin.install "dz"
       end
     end
 
     on_intel do
-      url "https://dz-cli.s3.us-west-2.amazonaws.com/0c8484a/linux-amd64/dz.tar.gz"
-      sha256 "2f233047c55b7c6caab58b45076d355cb331a9cb7b689a19d445819adebf9939"
+      url "https://dz-cli.s3.us-west-2.amazonaws.com/a9f930d/linux-amd64/dz.tar.gz"
+      sha256 "fef734835872a817b205874426da864f443a4ea20fb3e8d8b7ee917dd742c190"
       def install
         bin.install "dz"
       end
